@@ -18,6 +18,7 @@
     padding: 10px;
 
 }
-.nav-items li{
+.nav-items li, a{
     list-style: none;
+    text-decoration: none;
 }
