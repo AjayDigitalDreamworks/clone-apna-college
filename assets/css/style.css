@@ -11,7 +11,7 @@
     background-color: #fff;
     border-bottom: 1px #000 solid;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* line-height: 60px; */
     padding-top: 10px;
@@ -21,8 +21,6 @@
     width:90%;
     display: flex;
     justify-content: space-around;
-
-    
 }
 .nav-items{
     display: flex;
