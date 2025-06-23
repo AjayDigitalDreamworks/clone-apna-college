@@ -10,11 +10,11 @@
     background-color: #fff;
     border-bottom: 1px #000 solid;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .nav-items{
     display: flex;
     padding: 10px;
-    
+
 }
