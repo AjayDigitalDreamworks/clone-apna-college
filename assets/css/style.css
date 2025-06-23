@@ -10,4 +10,5 @@
     background-color: #fff;
     border-bottom: 1px #000 solid;
     display: flex;
+    justify-content: space-around;
 }
