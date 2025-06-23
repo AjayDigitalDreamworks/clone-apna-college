@@ -17,8 +17,12 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.logo-img{
+    width:"60%";
+}
 
 .nav-items{
+    width:"40%";
     display: flex;
     padding: 10px;
 
