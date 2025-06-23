@@ -9,4 +9,5 @@
     height: 90px;
     background-color: #fff;
     border-bottom: 1px #000 solid;
+    display: flex;
 }
