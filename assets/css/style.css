@@ -11,14 +11,14 @@
     background-color: #fff;
     border-bottom: 1px #000 solid;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* line-height: 60px; */
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .logo-img{
-      width:60%;
+      width:50%;
 }
 .inner-container{
     width:90%;
