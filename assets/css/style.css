@@ -12,3 +12,9 @@
     display: flex;
     justify-content: space-around;
 }
+
+.nav-items{
+    display: flex;
+    padding: 10px;
+    
+}
