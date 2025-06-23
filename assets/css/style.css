@@ -11,14 +11,14 @@
     background-color: #fff;
     border-bottom: 1px #000 solid;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* line-height: 60px; */
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .logo-img{
-    width:60%;
+    width:40%;
 }
 
 .nav-items{
