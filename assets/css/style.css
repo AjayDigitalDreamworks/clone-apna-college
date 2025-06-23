@@ -27,7 +27,7 @@
 }
 .nav-items{
     display: flex;
-      width:40%;
+      width:50%;
     padding: 10px 5px;
 }
 .nav-items li, a{
