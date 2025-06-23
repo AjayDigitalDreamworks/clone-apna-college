@@ -7,13 +7,13 @@
 
 #header{
     width: 100%;
-    height: 90px;
+    /* height: 90px; */
     background-color: #fff;
     border-bottom: 1px #000 solid;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    line-height: 60px;
+    /* line-height: 60px; */
 }
 
 .nav-items{
