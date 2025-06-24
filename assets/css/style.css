@@ -71,4 +71,5 @@ color: #fff;
     white-space: nowrap;
     width: 5px;
     display: inline-block;
+    vertical-align: middle;
 }
