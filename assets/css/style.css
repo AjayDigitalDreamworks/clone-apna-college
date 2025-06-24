@@ -84,8 +84,8 @@ color: #fff;
   border: none;
   cursor: pointer;
   position: fixed;
-     left: 96%;
-     top: 20px;
+  left: 96%;
+  top: 20px;
 }
 
 @media (max-width: 990px) {
