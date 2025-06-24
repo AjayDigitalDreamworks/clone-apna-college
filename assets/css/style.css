@@ -106,7 +106,7 @@ color: #fff;
 
 /* ===== hero ======= */
 .hero{
-  height: 80dvh;
+  height: 100dvh;
   background-image: url('../img/back.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,7 +128,7 @@ color: #fff;
   flex: 1 1 300px;
   min-width: 250px;
   max-width: 400px;
-  /* height: 00px; */
+  height: 400px;
   display: inline;
   justify-content: center;
   align-items: center;
