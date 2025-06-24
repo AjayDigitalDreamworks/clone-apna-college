@@ -69,5 +69,6 @@ color: #fff;
     margin-left: 4px;
     transform: rotate(135deg);
     white-space: nowrap;
-    width: 5px
+    width: 5px;
+    display: inline-block;
 }
