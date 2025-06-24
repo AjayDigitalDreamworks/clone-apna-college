@@ -118,23 +118,24 @@ color: #fff;
 }
 
 .flexBox{
-    width: 80%;
     display: flex;
-    gap: 80px;
-    flex-wrap: wrap;
-    justify-content: center;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
 }
 
 .boxText{
-  flex: 1 1 300px;
-  width: 50%;
-  height: 400px;
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-  border-radius: 10px;
+  flex: 0 0 50%;
+      max-width: 50%;
+      padding: 15px;
 }
+
+@media (max-width: 992px) {
+      .boxText {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
 
 
 .boxImg img{
