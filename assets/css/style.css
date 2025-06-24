@@ -126,8 +126,7 @@ color: #fff;
 
 .boxText{
   flex: 1 1 300px;
-  min-width: 250px;
-  max-width: 400px;
+  width: 50%;
   height: 400px;
   display: inline;
   justify-content: center;
