@@ -58,7 +58,7 @@ color: #fff;
 }
 
 .courses{
-    /* position: relative; */
+    position: relative;
 }
 
 .courses::after{
