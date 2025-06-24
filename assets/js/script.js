@@ -15,7 +15,7 @@ hamburger.addEventListener('click', () => {
 });
 
 
-// typewriter
+// typewriter animation
 
  const textArray = [
       "Welcome to Ajay Digital Dreamworks.",
@@ -23,9 +23,9 @@ hamburger.addEventListener('click', () => {
       "Let’s Create the Future Together!"
     ];
 
-    const typingSpeed = 100;     // character speed
-    const erasingSpeed = 50;     // character erase speed
-    const delayBetween = 1500;   // wait after text fully typed
+    const typingSpeed = 100;     
+    const erasingSpeed = 50;     
+    const delayBetween = 1500;
 
     let textIndex = 0;
     let charIndex = 0;
@@ -53,7 +53,6 @@ hamburger.addEventListener('click', () => {
       }
     }
 
-    // Start typing
     document.addEventListener("DOMContentLoaded", () => {
       setTimeout(type, 500);
     });
