@@ -136,7 +136,7 @@ color: #fff;
 }
 
 .center {
-      align-content: center;
+      align-content: center !important;
       font-size: 3.2rem;
     }
 
