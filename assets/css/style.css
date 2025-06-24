@@ -24,7 +24,7 @@
     gap: 10px;
 }
 .nav-items li, a{
-  font-size: 14px;
+  font-size: 1rem;
     list-style: none;
     text-decoration: none;
     padding: 10px 5px;
