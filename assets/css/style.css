@@ -110,7 +110,7 @@ color: #fff;
   }
 
   .nav-items {
-    display: none;
+    /* display: none; */
     flex-direction: column;
     width: 100%;
     background-color: #fff;
