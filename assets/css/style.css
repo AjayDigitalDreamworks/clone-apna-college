@@ -89,7 +89,7 @@ color: #fff;
 }
 
 @media (max-width: 990px) {
-    #header{
+    /* #header{
         width: 100%;
 
     }
@@ -97,10 +97,28 @@ color: #fff;
         display: block;
     }
     .nav-items {
-    /* display: none; */
+    display: none;
     position: fixed;
     display: inline-block;
     justify-content: center;
     margin-top: 1rem;
+  } */
+
+   .hamburger {
+    display: block;
+    color: #222;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 10;
+    padding: 1rem 0;
   }
 }
