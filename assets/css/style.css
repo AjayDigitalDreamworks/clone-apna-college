@@ -7,13 +7,10 @@
 
 #header{
     width: 100%;
-    /* height: 0px; */
     background-color: #fff;
-    /* border-bottom: 1px #000 solid; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* line-height: 60px; */
     padding-block: 5px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
 }
@@ -22,8 +19,7 @@
 }
 .inner-container{
     width:90%;
-    display: flex;
-    /* justify-content: space-around; */
+    display: flex; 
 }
 .nav-items{
     display: flex;
@@ -54,16 +50,12 @@ color: #fff;
 .sign-up-btn a{
     color: #6674CC;
      padding: 2px 12px;
-    /* font-weight: 700; */
-}
-
-.courses{
-    /* position: relative; */
+    
 }
 
 .courses::after{
     margin-left: 4px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     content: "";
     height: 5px;
     width: 5px;
