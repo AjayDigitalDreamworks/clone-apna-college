@@ -59,9 +59,6 @@ color: #fff;
     /* font-weight: 700; */
 }
 
-.courses{
-    /* position: relative; */
-}
 
 .courses::after{
     margin-top: -1px;
