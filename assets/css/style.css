@@ -169,3 +169,9 @@ color: #fff;
         border-color: transparent;
       }
     }
+
+    .btn-ulti{
+    background-origin: border-box;
+    border-style: solid;
+    border-width: 2px;
+    }
