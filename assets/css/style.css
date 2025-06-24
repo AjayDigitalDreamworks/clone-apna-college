@@ -43,6 +43,9 @@
     border-radius: 5px;
     padding-inline: 5px;
 }
-.sigma-btn a{
+.sigma-btn a .sign-up-btn a{
 color: #fff;
+}
+.sign-up-btn{
+    border: 2px solid  rgba(54, 75, 197, 0.8);
 }
