@@ -62,12 +62,12 @@ color: #fff;
 }
 
 .courses::after{
-    /* margin-left: 4px; */
-    content: "";
-    height: 5px;
-    width: 5px;
     border-right: 1px solid;
     border-top: 1px solid;
-    white-space: nowrap;
+    content: "";
+    height: 5px;
+    margin-left: 4px;
     transform: rotate(135deg);
+    white-space: nowrap;
+    width: 5px
 }
