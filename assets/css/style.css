@@ -15,12 +15,12 @@
 .logo-img{
       margin-top: 10px;
 }
-.inner-container{
+/* .inner-container{
     width:80%;
     display: flex;
     margin: auto !important;
     justify-content: space-evenly;
-}
+} */
 .nav-items{
     display: flex;
     padding: 10px 5px;
