@@ -125,18 +125,27 @@ color: #fff;
 }
 
 .boxText{
-  width: 50%;
-  height: 100%;
+  flex: 1 1 300px;
+  min-width: 250px;
+  max-width: 400px;
+  height: 200px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 10px;
 }
 
-.boxImg{
+/* .boxImg{
   width: 50%;
   height: 100%;
   display: inline-flex;
   justify-content: center;
   place-items: center;
   align-items: center;
-}
+} */
 
 .boxImg img{
   width: 300px;
