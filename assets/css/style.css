@@ -118,7 +118,7 @@ color: #fff;
 
 .flexBox{
     width: 80%;
-    display: inline-flex;
+    display: flex;
     gap: 80px;
     flex-wrap: wrap;
     justify-content: center;
