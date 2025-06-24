@@ -20,7 +20,6 @@
     display: flex;
     margin: auto !important;
     justify-content: space-between;
-    gap: 200px;
 }
 .nav-items{
     display: flex;
