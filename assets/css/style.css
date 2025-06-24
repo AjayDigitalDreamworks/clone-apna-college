@@ -106,9 +106,25 @@ color: #fff;
 
 /* ===== hero ======= */
 .hero{
-  width: 100%;
+  width: 80%;
   height: 80dvh;
   background-image: url('../img/back.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  align-items: center;
+
+}
+
+.boxText{
+  width: 50%;
+  height: 100%;
+}
+
+.boxImg{
+  width: 50%;
+  height: 100%;
+  
 }
