@@ -13,3 +13,48 @@ hamburger.addEventListener('click', () => {
     hamburger.classList.add('fa-bars');
   }
 });
+
+
+// typewriter
+
+ const textArray = [
+      "Welcome to Ajay Digital Dreamworks.",
+      "We Build Apps, Websites & AI Tools.",
+      "Let’s Create the Future Together!"
+    ];
+
+    const typingSpeed = 100;     // character speed
+    const erasingSpeed = 50;     // character erase speed
+    const delayBetween = 1500;   // wait after text fully typed
+
+    let textIndex = 0;
+    let charIndex = 0;
+    const typewriter = document.getElementById("typewriter");
+
+    function type() {
+      if (charIndex < textArray[textIndex].length) {
+        typewriter.textContent += textArray[textIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, typingSpeed);
+      } else {
+        setTimeout(erase, delayBetween);
+      }
+    }
+
+    function erase() {
+      if (charIndex > 0) {
+        typewriter.textContent = textArray[textIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, erasingSpeed);
+      } else {
+        textIndex++;
+        if (textIndex >= textArray.length) textIndex = 0;
+        setTimeout(type, 500);
+      }
+    }
+
+    // Start typing
+    document.addEventListener("DOMContentLoaded", () => {
+      setTimeout(type, 500);
+    });
+ 
