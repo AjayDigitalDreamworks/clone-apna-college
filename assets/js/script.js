@@ -1,6 +1,15 @@
 const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('nav-items');
+const navItems = document.getElementById('nav-items');
+
 
 hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
+  navItems.classList.toggle('active');
+  
+  if (hamburger.classList.contains('fa-bars')) {
+    hamburger.classList.remove('fa-bars');
+    hamburger.classList.add('fa-times');
+  } else {
+    hamburger.classList.remove('fa-times');
+    hamburger.classList.add('fa-bars');
+  }
 });
