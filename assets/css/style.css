@@ -130,6 +130,16 @@ color: #fff;
       padding: 15px;
 }
 
+.center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #111;
+      color: white;
+      font-family: monospace;
+    }
+
 @media (max-width: 992px) {
       .boxText {
         flex: 0 0 100%;
