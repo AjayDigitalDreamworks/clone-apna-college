@@ -13,18 +13,18 @@
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
 }
 .logo-img{
+    width: 20%;
       margin-top: 10px;
 }
 .inner-container{
-    width:80%;
+    width:90%;
     display: flex;
-    margin: auto !important;
+    /* margin: auto !important; */
     justify-content: space-between;
 }
 .nav-items{
     display: flex;
-    padding: 10px 5px;
-  
+    /* padding: 10px 5px; */
     gap: 10px;
 }
 .nav-items li, a{
