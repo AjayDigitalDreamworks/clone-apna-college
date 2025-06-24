@@ -99,6 +99,7 @@ color: #fff;
     }
     .nav-items {
     /* display: none; */
+    position: fixed;
     display: inline-block;
     justify-content: center;
     margin-top: 1rem;
