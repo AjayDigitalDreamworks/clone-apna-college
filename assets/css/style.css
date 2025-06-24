@@ -58,11 +58,11 @@ color: #fff;
 }
 
 .courses{
-    position: relative;
+    /* position: relative; */
 }
 
 .courses::after{
-    position: absolute;
+    /* position: absolute; */
     content: "";
     height: 5px;
     width: 5px;
