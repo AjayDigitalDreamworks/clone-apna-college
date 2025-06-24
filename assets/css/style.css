@@ -141,3 +141,18 @@ color: #fff;
   width: 400px;
   height: 400px;
 }
+
+  #typewriter{
+    font-size: 2rem;
+      border-right: 2px solid #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 24ch;
+      animation: blink 0.7s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
