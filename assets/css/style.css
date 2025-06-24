@@ -185,4 +185,13 @@ color: #fff;
     padding-right: 27px;
     padding-bottom: 15px;
     padding-left: 27px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    max-width: 100%;
+    outline: none;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
     }
