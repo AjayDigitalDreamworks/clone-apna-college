@@ -75,3 +75,9 @@ color: #fff;
     display: inline-block;
     vertical-align: middle;
 }
+
+@media (max-width: 900) {
+    header{
+        display: none;
+    }
+}
