@@ -29,7 +29,7 @@
 }
 .nav-items{
     display: flex;
-    /* width:60%; */
+    width:60%;
     padding: 10px 5px;
     gap: 10px;
 }
