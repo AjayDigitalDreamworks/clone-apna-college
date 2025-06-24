@@ -104,12 +104,12 @@ color: #fff;
     margin-top: 1rem;
   } */
 
-   .hamburger {
+   .navBar {
     display: block;
     color: #222;
   }
 
-  .nav-links {
+  .nav-items {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -122,11 +122,11 @@ color: #fff;
     padding: 1rem 0;
   }
 
-  .nav-links.active {
+  .nav-items.active {
     display: flex;
   }
 
-  .nav-links li {
+  .nav-items li {
     text-align: center;
     padding: 10px 0;
   }
