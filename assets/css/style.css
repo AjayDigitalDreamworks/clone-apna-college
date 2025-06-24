@@ -149,7 +149,7 @@ color: #fff;
       overflow: hidden;
       width: 24ch;
       animation: blink 0.7s step-end infinite;
-      background-color: #111;
+      color: #222;
     }
 
     @keyframes blink {
