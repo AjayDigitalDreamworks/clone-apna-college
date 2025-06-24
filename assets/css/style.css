@@ -63,8 +63,11 @@ color: #fff;
 
 .courses::after{
     position: absolute;
-    content: ">";
+    content: "";
     height: 5px;
     width: 5px;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    white-space: nowrap;
     transform: rotate(135deg);
 }
