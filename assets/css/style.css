@@ -56,3 +56,10 @@ color: #fff;
      padding: 2px 12px;
     /* font-weight: 700; */
 }
+
+.courses::after{
+    content: "";
+    height: 5px;
+    width: 5px;
+    
+}
