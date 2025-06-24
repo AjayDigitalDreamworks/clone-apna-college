@@ -30,7 +30,7 @@
 .nav-items{
     display: flex;
     width:60%;
-    padding: 10px 5px;
+    /* padding: 10px 5px; */
     gap: 10px;
 }
 .nav-items li, a{
