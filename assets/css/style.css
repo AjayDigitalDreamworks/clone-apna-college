@@ -135,11 +135,12 @@ color: #fff;
       padding: 15px;
 }
 
-.center {
+.center >* {
       align-content: center !important;
       font-size: 2.2rem;
       padding: 10px;
     }
+
 
 @media (max-width: 992px) {
       .boxText {
