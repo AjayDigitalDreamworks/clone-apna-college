@@ -129,21 +129,13 @@ color: #fff;
   min-width: 250px;
   max-width: 400px;
   height: 200px;
-  display: flex;
+  display: inline;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
   border-radius: 10px;
 }
 
-/* .boxImg{
-  width: 50%;
-  height: 100%;
-  display: inline-flex;
-  justify-content: center;
-  place-items: center;
-  align-items: center;
-} */
 
 .boxImg img{
   width: 300px;
