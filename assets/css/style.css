@@ -57,7 +57,12 @@ color: #fff;
     /* font-weight: 700; */
 }
 
+.courses{
+    position: relative;
+}
+
 .courses::after{
+    position: absolute;
     content: "";
     height: 5px;
     width: 5px;
