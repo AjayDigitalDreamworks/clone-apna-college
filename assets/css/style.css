@@ -134,6 +134,7 @@ color: #fff;
 
 .center {
       align-content: center;
+      font-size: 3.2rem;
     }
 
 @media (max-width: 992px) {
