@@ -7,7 +7,7 @@
 }
 
 #header{
-    width: 90%;
+    width: 85%;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
       margin-top: 10px;
 }
 .inner-container{
-    width:90%;
+    width:100%;
     display: flex;
     margin: auto !important;
     justify-content: space-around;
