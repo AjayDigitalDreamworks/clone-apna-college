@@ -62,7 +62,7 @@ color: #fff;
 }
 
 .courses::after{
-    margin-left: 4px;
+    /* margin-left: 4px; */
     content: "";
     height: 5px;
     width: 5px;
