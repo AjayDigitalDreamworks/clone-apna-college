@@ -98,7 +98,8 @@ color: #fff;
         display: block;
     }
     .nav-items {
-    display: none;
+    /* display: none; */
+    display: inline-block;
     justify-content: center;
     margin-top: 1rem;
   }
