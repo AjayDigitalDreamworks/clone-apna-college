@@ -110,10 +110,11 @@ color: #fff;
   background-image: url('../img/back.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+   width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .flexBox{
