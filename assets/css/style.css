@@ -63,7 +63,7 @@ color: #fff;
 
 .courses::after{
     position: absolute;
-    content: "";
+    content: ">";
     height: 5px;
     width: 5px;
     background: red;
