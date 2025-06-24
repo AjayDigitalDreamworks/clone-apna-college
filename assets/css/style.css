@@ -120,6 +120,10 @@ color: #fff;
 .flexBox{
   width: 80%;
     display: flex;
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+    align-items: center;
       flex-wrap: wrap;
       margin-right: -15px;
       margin-left: -15px;
