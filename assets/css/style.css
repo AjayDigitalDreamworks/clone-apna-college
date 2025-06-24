@@ -89,21 +89,6 @@ color: #fff;
 }
 
 @media (max-width: 990px) {
-    /* #header{
-        width: 100%;
-
-    }
-    .navBar{
-        display: block;
-    }
-    .nav-items {
-    display: none;
-    position: fixed;
-    display: inline-block;
-    justify-content: center;
-    margin-top: 1rem;
-  } */
-
    .navBar {
     display: block;
     color: #222;
