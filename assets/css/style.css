@@ -77,10 +77,11 @@ color: #fff;
     vertical-align: middle;
 }
 .navBar{
-    /* display: none; */
+    display: none;
      position: fixed;
      left: 96%;
      top: 20px;
+     cursor: pointer;
 }
 .navBar i{
     width: 60px;
