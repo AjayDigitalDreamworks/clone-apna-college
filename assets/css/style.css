@@ -48,6 +48,7 @@ color: #fff;
 }
 .sign-up-btn{
     border: 2px solid  #6674CC;
+    border-radius: 5px;
 }
 .sign-up-btn a{
     color: #6674CC;
