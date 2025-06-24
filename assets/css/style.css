@@ -176,4 +176,13 @@ color: #fff;
     border-width: 2px;
     border-color: transparent;
     color: white;
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 0rem;
+    text-transform: none;
+    padding-top: 15px;
+    padding-right: 27px;
+    padding-bottom: 15px;
+    padding-left: 27px;
     }
