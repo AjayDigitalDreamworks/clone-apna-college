@@ -24,7 +24,7 @@
     justify-content: space-evenly;
 } */
 .nav-items{
-    display: flex;
+    display: inline-flex;
     padding: 10px 5px;
     gap: 10px;
 }
