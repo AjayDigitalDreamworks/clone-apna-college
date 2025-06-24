@@ -39,7 +39,7 @@
     color: #000;
 }
 .sigma-btn{
-    background-color: rgb(54, 75, 197);
+    background-color: rgba(54, 75, 197, 0.5);
     color: #fff;
     border-radius: 5px;
 }
