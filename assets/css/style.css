@@ -132,9 +132,7 @@ color: #fff;
 }
 
 .center {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
+      align-content: center;
     }
 
 @media (max-width: 992px) {
