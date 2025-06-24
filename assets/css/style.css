@@ -25,6 +25,7 @@
     justify-content: space-around;
 }
 .nav-items{
+    width: 50%;
     display: flex;
     padding: 10px 5px;
     gap: 10px;
