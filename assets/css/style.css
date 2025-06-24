@@ -111,11 +111,13 @@ color: #fff;
   background-image: url('../img/back.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  place-items: center;
-  align-items: center;
+}
 
+.flexBox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .boxText{
