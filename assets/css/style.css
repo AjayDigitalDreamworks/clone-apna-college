@@ -63,7 +63,6 @@ color: #fff;
 
 .courses::after{
     margin-left: 4px;
-    margin-top: 5;
     content: "";
     height: 5px;
     width: 5px;
