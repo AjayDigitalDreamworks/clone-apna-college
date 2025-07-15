@@ -135,6 +135,7 @@ a {
 .boxText {
   max-width: 500px;
   position: fixed;
+  flex: 1;
 }
 
 .center {
