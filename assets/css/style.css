@@ -78,7 +78,7 @@ a {
   border: none;
   cursor: pointer;
   position: fixed;
-  left: 96%;
+  left: 94%;
   top: 20px;
 }
 
@@ -195,25 +195,21 @@ a {
         text-align: center;
       }
 
-      .text-section{
+      .boxText{
         font-size: 28px;
-      }
-
-      .typing-effect {
-        font-size: 20px;
       }
 
       .btn-ulti {
         font-size: 16px;
       }
 
-      .image-section {
+      .boxImg {
         margin-top: 40px;
       }
     }
 
     @media (max-width: 480px) {
-      .text-section{
+      .boxText{
         font-size: 24px;
       }
 
