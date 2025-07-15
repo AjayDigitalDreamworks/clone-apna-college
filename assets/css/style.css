@@ -133,7 +133,7 @@ a {
   width: 100%;
   display: inline-flex;
   /* justify-content: space-between; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .boxText {
