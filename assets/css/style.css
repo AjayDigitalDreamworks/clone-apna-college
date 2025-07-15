@@ -201,9 +201,9 @@ a {
       cursor: pointer;
 }
 
-.btn-ulti::after {
+/* .btn-ulti::after {
     /* content: "\f105"; */
-  margin-top: -1px;
+  /* margin-top: -1px;
   border-right: 1px solid;
   border-top: 1px solid;
   border-width: 30px !important;
@@ -216,4 +216,4 @@ a {
   width: 5px;
   display: inline-block;
   vertical-align: middle;
-}
+} */ 
