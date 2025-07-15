@@ -15,7 +15,7 @@ hamburger.addEventListener('click', () => {
 });
 
 
-// typewriter animation
+// typewriter animation - js
 
  const textArray = [
       "Welcome to Apna College.",
