@@ -200,5 +200,16 @@ a {
 }
 
 .btn-ulti:before {
-    content: "\f105";
+    /* content: "\f105"; */
+  margin-top: -1px;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  content: "";
+  height: 5px;
+  margin-left: 4px;
+  transform: rotate(135deg);
+  white-space: nowrap;
+  width: 5px;
+  display: inline-block;
+  vertical-align: middle;
 }
