@@ -160,9 +160,10 @@ a {
 }
 
 
-.boxImg img {
-  width: 400px;
-  height: 400px;
+.boxImg {
+  border-radius: 50% 50% 0 0;
+      width: 380px;
+      height: auto;
 }
 
 #typewriter {
