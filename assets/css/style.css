@@ -72,10 +72,10 @@ a {
 }
 
 .navBar {
-  text-align: center;
   display: none;
   font-size: 24px;
   background: none;
+  paddong: 10px;
   border: none;
   cursor: pointer;
   position: fixed;
