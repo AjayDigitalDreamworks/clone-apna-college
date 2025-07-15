@@ -128,13 +128,6 @@ a {
       min-height: 80vh;
 }
 
-.flexBox {
-  width: 100%;
-  display: inline-flex;
-  /* justify-content: space-between; */
-  /* flex-wrap: wrap; */
-}
-
 .boxText {
   max-width: 500px;
 }
