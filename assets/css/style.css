@@ -134,7 +134,7 @@ a {
 }
 
 .center {
-  align-content: center !important;
+  /* align-content: center !important; */
   font-size: 32px;
   line-height: 50px;
   font-weight: 700;
