@@ -155,9 +155,10 @@ a {
 
 .boxImg {
   border-radius: 50% 50% 0 0;
-      width: 400px;
+  margin-top: 30px;
+      width: 420px;
       height: auto;
-      margin-right: 50px;
+      margin-right: 70px;
 }
 
 #typewriter-text{
