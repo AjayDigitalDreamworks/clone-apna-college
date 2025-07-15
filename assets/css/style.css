@@ -157,6 +157,7 @@ a {
   border-radius: 50% 50% 0 0;
       width: 400px;
       height: auto;
+      margin-right: 50px;
 }
 
 #typewriter-text{
