@@ -198,3 +198,7 @@ a {
       border-radius: 3px;
       cursor: pointer;
 }
+
+.btn-ulti:before {
+    content: "\f105";
+}
