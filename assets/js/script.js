@@ -17,43 +17,42 @@ hamburger.addEventListener('click', () => {
 
 // typewriter animation - js
 
- const textArray = [
-      "Welcome to Apna College.",
-      "We Build Apps, Websites & AI Tools.",
-      "Let’s Create the Future Together!"
-    ];
+const textArray = [
+  "Welcome to Apna College.",
+  "We Build Apps, Websites & AI Tools.",
+  "Let’s Create the Future Together!"
+];
 
-    const typingSpeed = 100;     
-    const erasingSpeed = 50;     
-    const delayBetween = 1500;
+const typingSpeed = 100;
+const erasingSpeed = 50;
+const delayBetween = 1500;
 
-    let textIndex = 0;
-    let charIndex = 0;
-    const typewriter = document.getElementById("typewriter");
+let textIndex = 0;
+let charIndex = 0;
+const typewriter = document.getElementById("typewriter-text");
 
-    function type() {
-      if (charIndex < textArray[textIndex].length) {
-        typewriter.textContent += textArray[textIndex].charAt(charIndex);
-        charIndex++;
-        setTimeout(type, typingSpeed);
-      } else {
-        setTimeout(erase, delayBetween);
-      }
-    }
+function type() {
+  if (charIndex < textArray[textIndex].length) {
+    typewriter.textContent += textArray[textIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingSpeed);
+  } else {
+    setTimeout(erase, delayBetween);
+  }
+}
 
-    function erase() {
-      if (charIndex > 0) {
-        typewriter.textContent = textArray[textIndex].substring(0, charIndex - 1);
-        charIndex--;
-        setTimeout(erase, erasingSpeed);
-      } else {
-        textIndex++;
-        if (textIndex >= textArray.length) textIndex = 0;
-        setTimeout(type, 500);
-      }
-    }
+function erase() {
+  if (charIndex > 0) {
+    typewriter.textContent = textArray[textIndex].substring(0, charIndex - 1);
+    charIndex--;
+    setTimeout(erase, erasingSpeed);
+  } else {
+    textIndex++;
+    if (textIndex >= textArray.length) textIndex = 0;
+    setTimeout(type, 500);
+  }
+}
 
-    document.addEventListener("DOMContentLoaded", () => {
-      setTimeout(type, 500);
-    });
- 
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(type, 500);
+});
