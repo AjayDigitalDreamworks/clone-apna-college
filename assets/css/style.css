@@ -188,6 +188,40 @@ a {
   100% { opacity: 1; }
 }
 
+    @media (max-width: 992px) {
+      .hero-container {
+        flex-direction: column;
+        padding: 40px 30px;
+        text-align: center;
+      }
+
+      .text-section{
+        font-size: 28px;
+      }
+
+      .typing-effect {
+        font-size: 20px;
+      }
+
+      .btn-ulti {
+        font-size: 16px;
+      }
+
+      .image-section {
+        margin-top: 40px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .text-section{
+        font-size: 24px;
+      }
+
+      .btn-ulti {
+        width: 100%;
+      }
+
+    }
 
 .btn-ulti {
       /* margin-top: 5px; */
