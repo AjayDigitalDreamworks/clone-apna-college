@@ -121,12 +121,11 @@ a {
 }
 
 .hero-container{
-
-  width: 80%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 100px;
+      min-height: 80vh;
 }
 
 .flexBox {
