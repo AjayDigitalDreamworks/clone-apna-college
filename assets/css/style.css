@@ -135,7 +135,9 @@ a {
 
 .center {
   align-content: center !important;
-  font-size: 2.2rem;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 700;
   /* padding: 10px; */
 }
 
