@@ -124,13 +124,13 @@ a {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 50px 100px;
+      /* padding: 50px 100px; */
       min-height: 80vh;
 }
 
 .boxText {
   max-width: 500px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .center {
