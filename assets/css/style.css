@@ -78,7 +78,7 @@ a {
   border: none;
   cursor: pointer;
   position: fixed;
-  left: 94%;
+  left: 90%;
   top: 20px;
 }
 
@@ -121,15 +121,18 @@ a {
 }
 
 .hero-container{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       padding: 50px 70px;
       min-height: 80vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
 }
 
 .boxText {
   max-width: 500px;
+  flex: 1;
 }
 
 .center {
