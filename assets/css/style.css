@@ -72,6 +72,7 @@ a {
 }
 
 .navBar {
+  text-align: center;
   display: none;
   font-size: 24px;
   background: none;
