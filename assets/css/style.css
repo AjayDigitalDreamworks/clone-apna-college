@@ -131,8 +131,8 @@ a {
 
 .flexBox {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
 }
 
