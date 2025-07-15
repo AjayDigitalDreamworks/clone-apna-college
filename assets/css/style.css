@@ -207,7 +207,7 @@ a {
   content: "";
   height: 5px;
   margin-left: 4px;
-  transform: rotate(340deg);
+  transform: rotate(90deg);
   white-space: nowrap;
   width: 5px;
   display: inline-block;
