@@ -138,6 +138,16 @@ a {
   flex: 1;
 }
 
+
+.boxImg img{
+
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+
 .center {
   font-size: 32px;
   line-height: 50px;
