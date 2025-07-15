@@ -206,14 +206,13 @@ a {
   margin-top: -1px;
   border-right: 1px solid;
   border-top: 1px solid;
-  font-weight: 700 !important;
-  font-size: 30px;
+  
   content: "";
   height: 5px;
   margin-left: 4px;
   transform: rotate(45deg);
   white-space: nowrap;
-  width: 5px;
+  width: 10px;
   display: inline-block;
   vertical-align: middle;
 }
