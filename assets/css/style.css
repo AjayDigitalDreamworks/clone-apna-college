@@ -75,11 +75,10 @@ a {
   display: none;
   font-size: 24px;
   background: none;
-  padding: 10px;
   border: none;
   cursor: pointer;
   position: fixed;
-  left: 96%;
+  left: 94%;
   top: 20px;
 }
 
@@ -122,12 +121,16 @@ a {
 }
 
 .hero-container{
+      /* display: flex;
+      justify-content: space-between;
+      align-items: center;
       padding: 50px 70px;
-      min-height: 80vh;
+      /* min-height: 80vh; */ 
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      padding: 50px 100px;
       flex-wrap: wrap;
 }
 
@@ -146,14 +149,6 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0 10px;
-}
-
-
-@media (max-width: 992px) {
-  .boxText {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
 }
 
 
