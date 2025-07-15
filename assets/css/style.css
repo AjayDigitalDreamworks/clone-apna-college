@@ -159,23 +159,6 @@ a {
       height: auto;
 }
 
-/* #typewriter {
-  font-size: 22px;
-  border-right: 2px solid #fff;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 24ch;
-  animation: blink 0.7s step-end infinite;
-  color: #222;
-  line-height: 34px;
-  font-weight: 400;
-} */
-
-/* @keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-} */
 
 .cursor {
   font-size: 22px;
