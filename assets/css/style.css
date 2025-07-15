@@ -130,21 +130,18 @@ a {
 
 .boxText {
   max-width: 500px;
-  /* margin-left: 10px; */
 }
 
 .center {
-  /* align-content: center !important; */
   font-size: 32px;
   line-height: 50px;
   font-weight: 700;
-  /* padding: 10px; */
 }
 
 .center>* {
   margin-top: 10px;
   margin-bottom: 10px;
-   padding: 10px;
+  padding: 0 10px;
 }
 
 
