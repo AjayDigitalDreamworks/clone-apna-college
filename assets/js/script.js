@@ -18,7 +18,7 @@ hamburger.addEventListener('click', () => {
 // typewriter animation
 
  const textArray = [
-      "Welcome to Ajay Digital Dreamworks.",
+      "Welcome to Apna College.",
       "We Build Apps, Websites & AI Tools.",
       "Let’s Create the Future Together!"
     ];
